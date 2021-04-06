@@ -1,9 +1,10 @@
+'use strict';
 const express = require('express');
 
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!').end();
+  res.status(200).send('gcp testing').end();
 });
 
 // Start the server
